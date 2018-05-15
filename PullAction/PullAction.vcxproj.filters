@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Back">
+      <UniqueIdentifier>{84c00c9a-6e92-4ebd-8cbb-292da455ab97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\define">
+      <UniqueIdentifier>{39a7c44d-4df6-4136-a90a-f3506d24859c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{d0652c93-a5b3-45b2-bb20-dbcc3b679352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Field">
+      <UniqueIdentifier>{322d6420-ea74-4351-b805-911e96da4d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Title">
+      <UniqueIdentifier>{ed0bd61c-40f3-444d-be4e-162765f5b86f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Input">
+      <UniqueIdentifier>{b2611f0b-d287-4be0-9567-55274337bfbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Math">
+      <UniqueIdentifier>{2a7c0168-2d88-464d-a71a-39e24e7dbd01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GraphFactory">
+      <UniqueIdentifier>{93545b23-ad6f-4270-825a-e023076aab14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Actor\Back.cpp">
+      <Filter>ソース ファイル\Back</Filter>
+    </ClCompile>
+    <ClCompile Include="src\define.cpp">
+      <Filter>ソース ファイル\define</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Actor\Field.cpp">
+      <Filter>ソース ファイル\Game\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Actor\Game.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Actor\Title.cpp">
+      <Filter>ソース ファイル\Game\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input\Input.cpp">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Figure\Math.cpp">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphFactory\GraphFactory.cpp">
+      <Filter>ソース ファイル\Game\GraphFactory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Actor\Back.h">
+      <Filter>ソース ファイル\Back</Filter>
+    </ClInclude>
+    <ClInclude Include="src\define.h">
+      <Filter>ソース ファイル\define</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Actor\Field.h">
+      <Filter>ソース ファイル\Game\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Actor\Game.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Actor\Title.h">
+      <Filter>ソース ファイル\Game\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input\Input.h">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Figure\Math.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Easing\Easing.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphFactory\GraphFactory.h">
+      <Filter>ソース ファイル\Game\GraphFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Object\Object.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Console\Console.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
