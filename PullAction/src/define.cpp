@@ -1,7 +1,7 @@
 #include "define.h"
 
 void DrawImage(Math::Box2D draw, Math::Box2D src, int handle) {
-	DrawRectExtendGraphF(draw.x, draw.y, draw.x + draw.w, draw.y + draw.h, (int)src.x, (int)src.y, int(src.x + src.w), int(src.y + src.h), handle, true);
+	DrawRectExtendGraphF(draw.x, draw.y, draw.x + draw.w, draw.y + draw.h, (int)src.x, (int)src.y, (int)src.w, (int)src.h, handle, true);
 }
 void DrawImageRotate(Math::Box2D draw, Math::Box2D src, int handle, float radian) {
 	Math::Vec center(draw.x, draw.y);
